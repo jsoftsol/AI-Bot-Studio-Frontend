@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">The bot builder: sections and previews</text>
+
+  <rect x="30" y="70" width="620" height="440" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="340" y="98" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">Builder sections</text>
+
+  <rect x="50" y="116" width="280" height="76" rx="8" fill="#e0e7ff" stroke="#4f46e5"/>
+  <text x="190" y="142" text-anchor="middle" font-size="13" font-weight="700" fill="#1e1b4b">Settings</text>
+  <text x="190" y="162" text-anchor="middle" font-size="12" fill="#1e1b4b">name, assistant and model,</text>
+  <text x="190" y="178" text-anchor="middle" font-size="12" fill="#1e1b4b">quick buttons</text>
+
+  <rect x="350" y="116" width="280" height="76" rx="8" fill="#e0e7ff" stroke="#4f46e5"/>
+  <text x="490" y="142" text-anchor="middle" font-size="13" font-weight="700" fill="#1e1b4b">Instructions</text>
+  <text x="490" y="162" text-anchor="middle" font-size="12" fill="#1e1b4b">written by hand or made</text>
+  <text x="490" y="178" text-anchor="middle" font-size="12" fill="#1e1b4b">by the instruction generator</text>
+
+  <rect x="50" y="206" width="280" height="76" rx="8" fill="#fef3c7" stroke="#d97706"/>
+  <text x="190" y="232" text-anchor="middle" font-size="13" font-weight="700" fill="#78350f">Data sources</text>
+  <text x="190" y="252" text-anchor="middle" font-size="12" fill="#78350f">files, Q and A, text,</text>
+  <text x="190" y="268" text-anchor="middle" font-size="12" fill="#78350f">web links, then train</text>
+
+  <rect x="350" y="206" width="280" height="76" rx="8" fill="#fce7f3" stroke="#db2777"/>
+  <text x="490" y="232" text-anchor="middle" font-size="13" font-weight="700" fill="#831843">Branding</text>
+  <text x="490" y="252" text-anchor="middle" font-size="12" fill="#831843">chat bubble theme and</text>
+  <text x="490" y="268" text-anchor="middle" font-size="12" fill="#831843">chat page theme</text>
+
+  <rect x="50" y="296" width="280" height="76" rx="8" fill="#ecfdf5" stroke="#059669"/>
+  <text x="190" y="322" text-anchor="middle" font-size="13" font-weight="700" fill="#064e3b">Advanced functions</text>
+  <text x="190" y="342" text-anchor="middle" font-size="12" fill="#064e3b">welcome gate, call-to-action,</text>
+  <text x="190" y="358" text-anchor="middle" font-size="12" fill="#064e3b">appointments, incentives</text>
+
+  <rect x="350" y="296" width="280" height="76" rx="8" fill="#ecfdf5" stroke="#059669"/>
+  <text x="490" y="322" text-anchor="middle" font-size="13" font-weight="700" fill="#064e3b">Connections</text>
+  <text x="490" y="342" text-anchor="middle" font-size="12" fill="#064e3b">Calendly, Freshdesk, Square,</text>
+  <text x="490" y="358" text-anchor="middle" font-size="12" fill="#064e3b">WhatsApp, Messenger, Instagram, Gmail</text>
+
+  <rect x="50" y="386" width="280" height="76" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="190" y="412" text-anchor="middle" font-size="13" font-weight="700" fill="#4c1d95">Voice</text>
+  <text x="190" y="432" text-anchor="middle" font-size="12" fill="#4c1d95">enable and pick a voice model</text>
+  <text x="190" y="448" text-anchor="middle" font-size="12" fill="#4c1d95">(partly behind a dev flag)</text>
+
+  <rect x="350" y="386" width="280" height="76" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="490" y="412" text-anchor="middle" font-size="13" font-weight="700" fill="#4c1d95">Embed code</text>
+  <text x="490" y="432" text-anchor="middle" font-size="12" fill="#4c1d95">script snippet and public link</text>
+  <text x="490" y="448" text-anchor="middle" font-size="12" fill="#4c1d95">for the finished bot</text>
+
+  <rect x="700" y="116" width="270" height="130" rx="10" fill="#fce7f3" stroke="#db2777" stroke-width="1.5"/>
+  <text x="835" y="144" text-anchor="middle" font-size="14" font-weight="700" fill="#831843">Live bubble preview</text>
+  <text x="835" y="168" text-anchor="middle" font-size="12" fill="#831843">chats with the real bot</text>
+  <text x="835" y="186" text-anchor="middle" font-size="12" fill="#831843">over a socket while</text>
+  <text x="835" y="204" text-anchor="middle" font-size="12" fill="#831843">you edit</text>
+
+  <rect x="700" y="270" width="270" height="100" rx="10" fill="#fce7f3" stroke="#db2777" stroke-width="1.5"/>
+  <text x="835" y="298" text-anchor="middle" font-size="14" font-weight="700" fill="#831843">Full page preview</text>
+  <text x="835" y="322" text-anchor="middle" font-size="12" fill="#831843">the same bot as a</text>
+  <text x="835" y="340" text-anchor="middle" font-size="12" fill="#831843">full chat page</text>
+
+  <rect x="700" y="394" width="270" height="68" rx="10" fill="#f1f5f9" stroke="#64748b"/>
+  <text x="835" y="422" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Training progress</text>
+  <text x="835" y="442" text-anchor="middle" font-size="12" fill="#334155">arrives as socket events</text>
+
+  <line x1="634" y1="235" x2="696" y2="190" stroke="#475569" stroke-width="1.5" marker-end="url(#a)"/>
+  <line x1="634" y1="250" x2="696" y2="310" stroke="#475569" stroke-width="1.5" marker-end="url(#a)"/>
+</svg>

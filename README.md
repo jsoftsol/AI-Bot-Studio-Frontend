@@ -2,7 +2,23 @@
 
 Documentation for the customer app of AI Bot Studio, a platform for building AI chat bots that answer from a business's own content. This is the builder: where a user creates a bot, gives it knowledge, styles it, connects channels and reviews leads. It talks to [AI-Bot-Studio-Backend](https://github.com/jsoftsol/AI-Bot-Studio-Backend), and the bots it builds run for visitors in [AI-Bot-Studio-Public](https://github.com/jsoftsol/AI-Bot-Studio-Public).
 
-> **The source code is not included in this repository.** This is client work and the code is proprietary. This repo only holds documentation: this README, a reverse-engineered product spec ([PRD.md](PRD.md)), and two diagrams in `screenshots/`. Everything here was written from a read-through of the actual codebase. Hostnames, credentials and security specifics are left out on purpose.
+> **The source code is not included in this repository.** This is client work and the code is proprietary. This repo only holds documentation: this README, a reverse-engineered product spec ([PRD.md](PRD.md)), and screenshots and two diagrams in `screenshots/`. Everything here was written from a read-through of the actual codebase. Hostnames, credentials and security specifics are left out on purpose.
+
+## Screenshots
+
+Taken from a working account. The account email is pixelated.
+
+**Bot builder.** Main setup on the left and the live chat bubble preview on the right, with the page view and query counts for the bot.
+![Bot builder](screenshots/bot-builder.png)
+
+**Data sources.** Tabs for files, text, URLs and question and answer pairs, with a summary of what the bot has been given so far.
+![Data sources](screenshots/data-sources.png)
+
+**Training center.** Uploaded files with their type, storage, status and the tags and bots they are linked to. Other tabs cover site URLs and connected platforms.
+![Training center](screenshots/training-center.png)
+
+**Message automations.** The posts and reels of a connected Instagram account, a catch-all switch, and comment and message counts.
+![Message automations](screenshots/message-automations.png)
 
 ## What it does
 
@@ -27,7 +43,7 @@ User -> Vue 3 SPA -> Pinia stores -> API services (Axios) -> AI Bot Studio backe
 
 ### The bot builder
 
-![Bot builder sections](screenshots/bot-builder.svg)
+![Bot builder sections](screenshots/builder-sections.svg)
 
 ## Tech stack
 

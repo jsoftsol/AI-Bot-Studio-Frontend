@@ -6,16 +6,25 @@ Documentation for the customer app of AI Bot Studio, a platform for building AI 
 
 ## Screenshots
 
-Taken from a working account. The account email is pixelated.
+Taken from a working account. The account email, bot names and logos, and social media handles are pixelated.
 
 **Bot builder.** Main setup on the left and the live chat bubble preview on the right, with the page view and query counts for the bot.
 ![Bot builder](screenshots/bot-builder.png)
+
+**Dashboard.** Chatbot activity by bot type, the top chatbots by score and a live map of conversations.
+![Dashboard](screenshots/dashboard.png)
+
+**Bot library.** Every bot as a card with its connected channels, tags, page views and query counts, plus search and group filters.
+![Bot library](screenshots/bot-library.png)
 
 **Data sources.** Tabs for files, text, URLs and question and answer pairs, with a summary of what the bot has been given so far.
 ![Data sources](screenshots/data-sources.png)
 
 **Training center.** Uploaded files with their type, storage, status and the tags and bots they are linked to. Other tabs cover site URLs and connected platforms.
 ![Training center](screenshots/training-center.png)
+
+**Messaging channels.** Connected Instagram accounts with the bot assigned to each, with tabs for Messenger and WhatsApp.
+![Messaging channels](screenshots/channels.png)
 
 **Message automations.** The posts and reels of a connected Instagram account, a catch-all switch, and comment and message counts.
 ![Message automations](screenshots/message-automations.png)
